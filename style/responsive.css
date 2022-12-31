@@ -1,0 +1,35 @@
+@media screen and (max-width:700px) {
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.botao{
+    margin-top: 5px;
+    width: 190px;
+    height: 60px;
+}
+@media screen and (min-width:1000px){
+    .descricao{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 476px ){
+    .carrocel2 .owl-carousel .box-filme{
+       
+        display: flex;
+        flex-direction: column;
+        width: 160%;
+        
+    }
+}
+
+@media screen and (max-width: 699px ){
+    .carrocel2 .owl-carousel .box-filme{
+       
+        
+        width: 200%;
+        
+    }
+}
